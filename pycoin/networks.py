@@ -7,7 +7,6 @@ NetworkValues = namedtuple('NetworkValues',
                             'pay_to_script', 'prv32', 'pub32'))
 
 NETWORKS = (
-
     # BTC bitcoin mainnet : xprv/xpub
     NetworkValues("Bitcoin", "mainnet", "BTC", b'\x80', b'\0', b'\5', h2b("0488ADE4"), h2b("0488B21E")),
     # BTC bitcoin testnet : tprv/tpub
@@ -72,6 +71,10 @@ NETWORKS = (
 
     # FAI faircoin mainnet : xprv/xpub
     NetworkValues("Faircoin", "mainnet", "FAI", b'\xdf', b'\x5f', b'\x24', h2b("0488ADE4"), h2b("0488B21E")),
+
+    # NEU Neucoin
+    NetworkValues("Neucoin", "mainnet", "NEU", b'\x34', b'\x35', b'\x80', h2b('0488ADE4'), h2b('0488B21E')),
+    NetworkValues("Neucoin", "testnet", "NEU", b'\x44', b'\x41', b'\x7f', h2b('0488ADE4'), h2b('0488B21E')),
 
 )
 
