@@ -73,7 +73,7 @@ NETWORKS = (
     NetworkValues("Faircoin", "mainnet", "FAI", b'\xdf', b'\x5f', b'\x24', h2b("0488ADE4"), h2b("0488B21E")),
 
     # NEU Neucoin
-    NetworkValues("Neucoin", "mainnet", "NEU", b'\x34', b'\x35', b'\x80', h2b('0488ADE4'), h2b('0488B21E')),
+    NetworkValues("Neucoin", "mainnet", "NEU", b'\x34', b'\x35', b'\x70', h2b('0488ADE4'), h2b('0488B21E')),
     NetworkValues("Neucoin", "testnet", "TEU", b'\x44', b'\x41', b'\x7f', h2b('0488ADE4'), h2b('0488B21E')),
 
 )
